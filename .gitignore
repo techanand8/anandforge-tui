@@ -1,0 +1,29 @@
+# Simulation & Waveform files
+*.vcd
+*.out
+*.vvp
+
+# Yosys / Synthesis outputs
+*.dot
+*.json
+*.blif
+*.log
+yosys_history.txt
+
+# Python (if using for TUI)
+__pycache__/
+*.py[cod]
+*.class
+venv/
+.env
+
+# Build / Binary files
+build/
+bin/
+dist/
+*.o
+*.so
+
+# OS specific
+.DS_Store
+Thumbs.db
