@@ -138,4 +138,30 @@ Tracking `CLK`, `RST`, and `COUNT` signals across multiple design iterations.
 * **Verification:** Custom Tabular Monitor
 * **Future:** Verilator & Surfer TUI
 ---
+
+## 🛠️ Easy Installation
+
+AnandForge-TUI requires **iVerilog** and **Yosys** to function. 
+
+### Step 1: Install System Engines
+Copy the command for your Linux distribution:
+
+| OS / Distro | Command |
+| :--- | :--- |
+| **Ubuntu / Debian** | `sudo apt update && sudo apt install iverilog yosys gtkwave -y` |
+| **Fedora / RHEL** | `sudo dnf install iverilog yosys gtkwave` |
+| **Arch / Manjaro** | `sudo pacman -S iverilog yosys gtkwave` |
+| **macOS** | `brew install icarus-verilog yosys gtkwave` |
+
+### Step 2: Install Python Requirements
+Once the system tools are ready, run:
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
+
+### Step 3: Launch
+\`\`\`bash
+python3 main.py
+\`\`\`
+---
 Developed by [techanand8](https://github.com/techanand8)
