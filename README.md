@@ -74,6 +74,68 @@ python3 mavenik_gem.py
 - [ ] **Verilator** High-Speed Simulation Support
 - [ ] **GTKWave** TUI Overlay Integration
 - [ ] ASCII Schematic Export
+---
 
+# 🛠️ AnandForge-TUI 
+**High-Performance VLSI Workstation for the Terminal**
+
+---
+
+## 📺 Project Showcase (Latest Stable Build)
+The current version features a robust **Tabular Monitor** for tracking logic transitions in real-time. This allows for cycle-by-cycle signal inspection of 4-bit counters and adders.
+
+<p align="center">
+  <img src="Screenshot_20260103_144741.png" width="95%" alt="AnandForge TUI Final Build">
+  <br><i>Final Stable Release: Logic Verification Engine (Jan 3, 2026)</i>
+</p>
+
+---
+
+## 🔍 Engineering & Synthesis Gallery
+
+### ⚡ Yosys Gate-Level Synthesis
+Integrating Yosys allows for real-time inspection of how Verilog code maps to hardware gates.
+<p align="center">
+  <img src="Screenshot_20260103_120745.png" width="48%">
+  <img src="Screenshot_20260103_120634.png" width="48%">
+</p>
+
+### 📊 Logic Simulation & Tabular Monitor
+Tracking `CLK`, `RST`, and `COUNT` signals across multiple design iterations.
+<p align="center">
+  <img src="Screenshot_20260102_150531.png" width="31%">
+  <img src="Screenshot_20260102_143720.png" width="31%">
+  <img src="Screenshot_20260103_114041.png" width="31%">
+</p>
+
+---
+
+## 📂 Development Timeline (No Duplicates)
+
+<details>
+<summary><b>📷 Click to view the full build history</b></summary>
+
+### Phase 3: UI Refinement & VCD Generation (Jan 2026)
+| Build 14:46 | Build 14:44 | Build 14:39 |
+| :---: | :---: | :---: |
+| <img src="Screenshot_20260103_144618.png"> | <img src="Screenshot_20260103_144448.png"> | <img src="Screenshot_20260103_143950.png"> |
+
+### Phase 2: Core Logic Implementation (Jan 2026)
+- **Signal Tracking:** `Screenshot_20260102_150441.png`, `Screenshot_20260102_143645.png`
+- **Initial Verification:** `Screenshot_20260102_140711.png`, `Screenshot_20260103_113933.png`
+
+### Phase 1: Prototype Birth (Dec 2025)
+- **First TUI Frame:** `Screenshot_20251231_193449.png`
+- **Original Workstation:** `Screenshot_20251230_165038.png`, `Screenshot_20251230_164956.png`
+
+</details>
+
+---
+
+## 🛠️ Integrated Tech Stack
+* **Simulation:** iVerilog
+* **Synthesis:** Yosys
+* **Verification:** Custom Tabular Monitor
+* **Future:** Verilator & Surfer TUI
 ---
 Developed by [techanand8](https://github.com/techanand8)
