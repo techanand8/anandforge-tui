@@ -161,7 +161,7 @@ pip install -r requirements.txt
 
 ### Step 3: Launch
 \`\`\`bash
-python3 main.py
+python3 mavenik_gem.py
 \`\`\`
 ---
 Developed by [techanand8](https://github.com/techanand8)
