@@ -56,7 +56,7 @@ Ensure you have **iVerilog** and **Yosys** installed in your `$PATH`.
 ```bash
 git clone https://github.com/techanand8/anandforge-tui.git
 cd anandforge-tui
-python3 main.py
+python3 mavenik_gem.py
 ```
 
 ## 📅 Roadmap
