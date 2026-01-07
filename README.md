@@ -133,10 +133,10 @@ Tracking `CLK`, `RST`, and `COUNT` signals across multiple design iterations.
 ---
 
 ## 📺 Live Demo
-Watch **AnandForge-TUI** in action with full audio:
+Watch **AnandForge-TUI** in action with full audio.
 
 <p align="center">
-  <video src="https://github.com/techanand8/anandforge-tui/raw/main/2026-01-03%2020-19-43.mp4" width="100%" controls>
+  <video src="2026-01-03%2020-19-43.mp4?raw=true" width="100%" controls>
     Your browser does not support the video tag.
   </video>
 </p>
