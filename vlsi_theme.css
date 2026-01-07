@@ -1,0 +1,304 @@
+/* Main Application */
+Screen {
+  background: $background;
+  color: $text;
+}
+
+/* Header with app name */
+Header {
+  background: $accent;
+  color: $text;
+  text-style: bold;
+  height: 3;
+  padding: 0 1;
+}
+
+Header .header-title {
+  background: $primary;
+  padding: 0 2;
+}
+
+/* Footer */
+Footer {
+  background: $accent;
+  color: $text;
+  height: 2;
+  padding: 0 1;
+}
+
+/* Panels */
+.panel {
+  border: solid $accent;
+  margin: 1;
+}
+
+#left_panel {
+  width: 25;
+  min-width: 20;
+}
+
+#center_panel {
+  width: 2fr;
+  min-width: 40;
+}
+
+#right_panel {
+  width: 25;
+  min-width: 20;
+}
+
+/* Panel sections */
+.panel-section {
+  border-bottom: solid $accent;
+  padding: 1;
+}
+
+.panel-section:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  color: $primary;
+  text-style: bold;
+  margin-bottom: 1;
+  padding-bottom: 1;
+  border-bottom: dashed $accent;
+}
+
+/* File Manager */
+#file_table {
+  height: 20;
+}
+
+DataTable {
+  background: $panel;
+}
+
+DataTable > .datatable--cursor {
+  background: $primary;
+  color: $text;
+}
+
+DataTable > .datatable--header {
+  background: $accent;
+  color: $text;
+  text-style: bold;
+}
+
+.file-buttons {
+  margin-top: 1;
+}
+
+.file-buttons > Button {
+  margin-right: 1;
+  min-width: 7;
+}
+
+/* Editor */
+#editor_header {
+  background: $accent;
+  padding: 0 1;
+  height: 3;
+}
+
+#editor_title {
+  color: $text;
+  text-style: bold;
+}
+
+#editor_controls {
+  dock: right;
+}
+
+TabbedContent {
+  height: 1fr;
+}
+
+TabPane {
+  padding: 1;
+}
+
+TextArea {
+  background: $panel;
+  border: solid $primary;
+}
+
+.text-area--cursor {
+  background: $primary;
+}
+
+/* Console */
+#console_container {
+  height: 30%;
+  border-top: solid $accent;
+}
+
+#console_header {
+  background: $accent;
+  padding: 0 1;
+  height: 3;
+}
+
+.console-output {
+  background: $panel;
+  padding: 1;
+  height: 1fr;
+}
+
+RichLog {
+  background: $panel;
+}
+
+/* Buttons */
+Button {
+  margin: 1;
+}
+
+Button.primary {
+  background: $primary;
+  color: $text;
+}
+
+Button.success {
+  background: #00aa00;
+  color: white;
+}
+
+Button.warning {
+  background: #ffaa00;
+  color: black;
+}
+
+Button.error {
+  background: #ff5555;
+  color: white;
+}
+
+Button:hover {
+  background: $accent;
+}
+
+Button.-active {
+  background: $primary;
+  text-style: bold;
+}
+
+/* Select boxes */
+Select {
+  background: $panel;
+  color: $text;
+  border: solid $accent;
+}
+
+Select:focus {
+  border: solid $primary;
+}
+
+/* Input fields */
+Input {
+  background: $panel;
+  color: $text;
+  border: solid $accent;
+}
+
+Input:focus {
+  border: solid $primary;
+}
+
+/* Status indicators */
+#tools_display {
+  padding: 1;
+  background: $panel;
+  border: solid $accent;
+}
+
+/* Preview area */
+#preview_content {
+  padding: 1;
+  background: $panel;
+  border: solid $accent;
+  height: 10;
+}
+
+/* Tooltips */
+Tooltip {
+  background: $accent;
+  color: $text;
+}
+
+/* Scrollbars */
+ScrollBar {
+  background: $panel;
+}
+
+ScrollBar.-active {
+  background: $primary;
+}
+
+/* Loading indicators */
+LoadingIndicator {
+  color: $primary;
+}
+
+/* Dialog boxes */
+.dialog-title {
+  text-align: center;
+  color: $primary;
+  text-style: bold;
+  margin-bottom: 2;
+}
+
+.dialog-buttons {
+  margin-top: 2;
+  align: right middle;
+}
+
+/* File list */
+.file-item {
+  padding: 1;
+}
+
+.file-item:hover {
+  background: $primary;
+}
+
+.file-item.selected {
+  background: $accent;
+  text-style: bold;
+}
+
+/* Theme items */
+.theme-item {
+  padding: 1;
+}
+
+.theme-item:hover {
+  background: $primary;
+}
+
+.theme-item.selected {
+  background: $accent;
+  color: $text;
+  text-style: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 120) {
+  #left_panel {
+    width: 20;
+  }
+
+  #right_panel {
+    width: 20;
+  }
+}
+
+@media (max-width: 80) {
+  #left_panel {
+    display: none;
+  }
+
+  #right_panel {
+    display: none;
+  }
+}

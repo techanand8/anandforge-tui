@@ -1,0 +1,1 @@
+read_verilog /home/mayank-anand/vlsi_playground/vlsi-tui/f.v; proc; opt; show -format png -prefix schematic

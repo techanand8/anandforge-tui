@@ -1,0 +1,1 @@
+read_verilog /home/mayank-anand/vlsi_playground/vlsi-tui/full_adder.v; prep; show -format dot -prefix sch

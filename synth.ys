@@ -1,0 +1,1 @@
+read_verilog /home/mayank-anand/vlsi_playground/vlsi-tui/f.v; synth -top f; write_verilog synth.v; stat
