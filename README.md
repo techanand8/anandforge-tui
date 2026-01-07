@@ -3,6 +3,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Tools: iVerilog | Yosys](https://img.shields.io/badge/Tools-iVerilog%20%7C%20Yosys-blue)](https://github.com/techanand8/anandforge-tui)
+[![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![TUI: Terminal](https://img.shields.io/badge/UI-Terminal%20TUI-7cfc00?logo=gnumetadata&logoColor=black)](https://github.com/techanand8/anandforge-tui)
+
+### 🏗️ Integrated EDA Tools
+[![Simulator: iVerilog](https://img.shields.io/badge/Sim-iVerilog-ff69b4)](http://iverilog.icarus.com/)
+[![Synthesis: Yosys](https://img.shields.io/badge/Synth-Yosys-brightgreen)](https://yosyshq.net/yosys/)
+[![Waveform: GTKWave](https://img.shields.io/badge/Waves-GTKWave-orange)](http://gtkwave.sourceforge.net/)
+[![Fast-Sim: Verilator](https://img.shields.io/badge/HighSpeed-Verilator-red)](https://www.veripool.org/verilator/)
+[![Viewer: Surfer](https://img.shields.io/badge/Viewer-Surfer%20TUI-blueviolet)](https://github.com/surfer-project/surfer)
 
 AnandForge-TUI is a high-performance terminal cockpit designed to bridge the gap between RTL coding and hardware verification. It unifies simulation, synthesis, and signal monitoring into a single, keyboard-driven interface.
 
