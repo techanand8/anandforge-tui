@@ -159,10 +159,10 @@ Copy the command for your Linux distribution:
 
 | OS / Distro | Command |
 | :--- | :--- |
-| **Ubuntu / Debian** | `sudo apt update && sudo apt install iverilog yosys gtkwave -y` |
-| **Fedora / RHEL** | `sudo dnf install iverilog yosys gtkwave` |
-| **Arch / Manjaro** | `sudo pacman -S iverilog yosys gtkwave` |
-| **macOS** | `brew install icarus-verilog yosys gtkwave` |
+| **Ubuntu / Debian** | `sudo apt update && sudo apt install iverilog yosys gtkwave verilator -y` |
+| **Fedora / RHEL** | `sudo dnf install iverilog yosys gtkwave verilator` |
+| **Arch / Manjaro** | `sudo pacman -S iverilog yosys gtkwave verilator` |
+| **macOS** | `brew install icarus-verilog yosys gtkwave verilator` |
 
 ### Step 2: Install Python Requirements
 Once the system tools are ready, run:
