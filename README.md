@@ -144,7 +144,7 @@ This section demonstrates the **AnandForge** workflow for a standard Full Adder 
 
 ### 📂 Detailed Analysis
 * 📄 **Truth Table Verification:** [View Full Simulation Log](https://github.com/user-attachments/assets/8c9c3013-6e73-455c-a8fb-d721e36a9077)
-* 📉 **Synthesis Resource Report:** [View Gate-Level Mapping](https://github.com/user-attachments/assets/4b43fb27-8395-4ba3-a899-7f27b47847e8)
+* 📉 **Thems and other Stuffs:** [View Gate-Level Mapping](https://github.com/user-attachments/assets/4b43fb27-8395-4ba3-a899-7f27b47847e8)
 
 ---
 **Workstation Note:** The above outputs were generated using the integrated `iVerilog` and `Yosys` toolchain. The tabular monitor confirms that $Sum = A \oplus B \oplus C_{in}$ and $C_{out} = (A \cdot B) + (C_{in} \cdot (A \oplus B))$.
