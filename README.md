@@ -133,13 +133,21 @@ Tracking `CLK`, `RST`, and `COUNT` signals across multiple design iterations.
 ---
 
 ## 📺 Live Demo
-Watch **AnandForge-TUI** in action with full audio.
-## 🎥 Demo Videos
+Watch **AnandForge-TUI** in action with full audio.## ⚡ Full Adder Verification
 
-- [▶️ Part 1](https://github.com/user-attachments/assets/827a7dea-fa5a-4abc-8921-c3f1f562ceff)
-- [▶️ Part 2](https://github.com/user-attachments/assets/02267494-bdf3-4263-8962-033e5ed9a0d1)
-- [▶️ Part 3](https://github.com/user-attachments/assets/8c9c3013-6e73-455c-a8fb-d721e36a9077)
-- [▶️ Part 4](https://github.com/user-attachments/assets/4b43fb27-8395-4ba3-a899-7f27b47847e8)
+This section demonstrates the **AnandForge** workflow for a standard Full Adder design, covering everything from gate-level synthesis to tabular simulation.
+
+### 🛠️ Design & Simulation
+| Logic Synthesis (Yosys) | Simulation Results (iVerilog) |
+| :--- | :--- |
+| ![Full Adder Schematic](https://github.com/user-attachments/assets/827a7dea-fa5a-4abc-8921-c3f1f562ceff) | ![Tabular Monitor Output](https://github.com/user-attachments/assets/02267494-bdf3-4263-8962-033e5ed9a0d1) |
+
+### 📂 Detailed Analysis
+* 📄 **Truth Table Verification:** [View Full Simulation Log](https://github.com/user-attachments/assets/8c9c3013-6e73-455c-a8fb-d721e36a9077)
+* 📉 **Synthesis Resource Report:** [View Gate-Level Mapping](https://github.com/user-attachments/assets/4b43fb27-8395-4ba3-a899-7f27b47847e8)
+
+---
+**Workstation Note:** The above outputs were generated using the integrated `iVerilog` and `Yosys` toolchain. The tabular monitor confirms that $Sum = A \oplus B \oplus C_{in}$ and $C_{out} = (A \cdot B) + (C_{in} \cdot (A \oplus B))$.
 
 
 ---
